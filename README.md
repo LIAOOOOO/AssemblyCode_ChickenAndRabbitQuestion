@@ -14,6 +14,7 @@ Output Format :
  The first output is the number of chicken in the cage, next we
 have to output the number of rabbits .
 
+
   Input   | Output
 --------------------
 10   36   | 2    8
