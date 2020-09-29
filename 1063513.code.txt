@@ -1,0 +1,68 @@
+LOAD R1 254 
+LOAD R2 254
+LOAD R3 254
+ADD R4 R2 R2
+ADD R5 R4 R4
+NOT R6 R3
+INC  R6
+ADD R8 R5 R6
+NOT R9 R4
+INC  R9
+ADD R11 R3 R9
+MOVE R12 R0
+INC R12
+ADD R13 R12 R12
+NOT R13 R13
+INC R13
+MOVE R14 R0
+MOVE R15 R0
+MOVE R10 R12
+NOT R10 R10
+INC R10
+JUMPNE R8 7
+STORE 255 R14
+JUMPNE R11 14
+STORE 255 R15
+ADD R1 R1 R10
+JUMPNE R1 -25
+HALT
+ADD R8 R8 R13
+ADD R14 R14 R12
+JUMPNE R8 -2
+STORE 255 R14
+JUMPNE R11 5
+STORE 255 R15
+ADD R1 R1 R10
+JUMPNE R1 -34
+HALT
+ADD R11 R11 R13
+ADD R15 R15 R12
+JUMPNE R11 -2
+STORE 255 R15
+ADD R1 R1 R10
+JUMPNE R1 -41
+HALT
+END
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+
+</title></head>
+<body>
+    <form method="post" action="./File_DownLoad_Wk_zip.aspx?File_name=1063513.code.txt&amp;type=3&amp;id=2317170" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTEzNDM3NzkxOWRkwneTr34MFXJYUKyKKda+DU4gQVM=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="629601C3" />
+</div>
+    <div>
+    
+    </div>
+    </form>
+</body>
+</html>
