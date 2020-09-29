@@ -16,7 +16,7 @@ have to output the number of rabbits .
 
 
   Input   | Output
---------------------
+_____________________
 10   36   | 2    8
 20   44   | 18   2
 40   142  | 9    31
